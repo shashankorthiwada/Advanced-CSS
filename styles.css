@@ -1,0 +1,41 @@
+body {
+  background-color: aqua;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 5px;
+  /* max-width: 200px; */
+  width: 22rem;
+  height: 30rem;
+}
+
+.card > p {
+  flex-grow: 1;
+}
+
+.card .thumbnail {
+  position: relative;
+  
+}
+
+.card .remove {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.profile-image{
+    /* width: 100%; */
+    width: 22rem;
+    height: 10rem;
+    
+}

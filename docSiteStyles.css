@@ -1,0 +1,28 @@
+.header {
+  grid-area: header;
+  height: 3rem;
+}
+
+.nav {
+  grid-area: nav;
+  height: 30rem;
+}
+
+.aside {
+  grid-area: aside;
+  height: 30rem;
+  grid-row-gap: 1px;
+}
+
+.row {
+  grid-area: row;
+  height: 4.5rem;
+}
+
+.docsite-div {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav aside aside"
+    "nav aside aside";
+}
